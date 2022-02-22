@@ -1,0 +1,22 @@
+{
+  "name": "onepager",
+  "version": "1.0.0",
+  "description": "",
+    "main": "index.js","scripts": {
+      "sass-dev": "sass --watch --update --style=expanded assets/scss:assets/css",
+      "sass-prod": "sass --no-source-map --style=compressed assets/scss:assets/css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://HELEMAALNIKS@github.com/SanicCMGT/onepager.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SanicCMGT/onepager/issues"
+  },
+  "homepage": "https://github.com/SanicCMGT/onepager#readme",
+  "devDependencies": {
+    "sass": "^1.49.8"
+  }
+}
