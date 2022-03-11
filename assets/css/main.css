@@ -1,3 +1,75 @@
+.card-1, .card-2, .card-3 {
+    background-color:#5eb3ec;
+    margin-bottom:25px;
+    padding:10px;
+    position:relative;
+}
+@keyframes slideleft{
+    0% {left: 100vw;}
+    100% {left: 0vw;}
+}
+@keyframes slideright{
+    0%{left:-100vw;}
+    50%{left:-100vw;}
+    100%{left:0vw;}
+}
+@keyframes slideleftdelay{
+    0%{left:100vw;}
+    67%{left:100vw;}
+    100%{left:0vw;}    
+}
+.card-1{
+    animation-name:slideleft;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+}
 
+.card-2{
+    animation-name:slideright;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+}
+
+.card-3{
+    animation-name:slideleftdelay;
+    animation-duration: 3s;
+    animation-timing-function: ease;
+}
+
+p {
+    color:white;
+    max-width: 1000px;
+    min-width: 600px;
+    margin-left:auto;
+    margin-right:auto;
+}
+body{
+    background-color: white;
+    margin:0px;
+    overflow-x: hidden;
+}
+
+img {
+    max-width: 1000px;
+    min-width: 600px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+h1{
+    color:white;
+    max-width: 1000px;
+    min-width: 600px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+h2 {
+    color:white;
+    max-width: 1000px;
+    min-width: 600px;
+    margin-left:auto;
+    margin-right:auto;
+}
 
 /*# sourceMappingURL=main.css.map */
