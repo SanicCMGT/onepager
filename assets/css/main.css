@@ -24,27 +24,31 @@
     100%{left:0vw;}    
 }
 
-.card-1{
+.card-1 {
     animation-name:slideleft;
     animation-duration: 1s;
     animation-timing-function: ease;
 }
 
-.card-2{
+.card-2 {
     animation-name:slideright;
     animation-duration: 2s;
     animation-timing-function: ease;
 }
 
-.card-3{
+.card-3 {
     animation-name:slideleftdelay;
     animation-duration: 3s;
     animation-timing-function: ease;
 }
-.card-4{
+.card-4 {
     animation-name:sliderightdelay;
     animation-duration: 4s;
     animation-timing-function: ease; 
+}
+
+.card-5 {
+    text-align: center;
 }
 
 .header{
@@ -107,10 +111,6 @@ img {
 
 .rightImg {
 
-}
-
-.linkDiv {
-    text-align: center;
 }
 
 .linkDiv a:link, .linkDiv a:visited {
