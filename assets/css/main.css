@@ -109,6 +109,10 @@ img {
 
 }
 
+.linkDiv {
+    text-align: center;
+}
+
 .linkDiv a:link, .linkDiv a:visited {
     background-color: #ffffff;
     color: #000000;
