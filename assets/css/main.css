@@ -109,7 +109,7 @@ img {
 
 }
 
-a:link, a:visited {
+.linkDiv a:link, .linkDiv a:visited {
     background-color: #ffffff;
     color: #000000;
     padding: 14px 25px;
@@ -120,7 +120,7 @@ a:link, a:visited {
     border-radius: 5px;
   }
   
-  a:hover, a:active {
+  .linkDiv a:hover, .linkDiv a:active {
     transition: 0.3s;
     background-color: #a8e3ff;
   }
