@@ -18,6 +18,12 @@
     67%{left:100vw;}
     100%{left:0vw;}    
 }
+@keyframes sliderightdelay{
+    0%{left:100vw;}
+    67%{left:-100vw;}
+    100%{left:0vw;}    
+}
+
 .card-1{
     animation-name:slideleft;
     animation-duration: 1s;
@@ -34,6 +40,15 @@
     animation-name:slideleftdelay;
     animation-duration: 3s;
     animation-timing-function: ease;
+}
+.card-4{
+    animation-name:sliderightdelay;
+    animation-duration: 3s;
+    animation-timing-function: ease; 
+}
+
+.header{
+    background-color: #109ede;
 }
 
 .container{
