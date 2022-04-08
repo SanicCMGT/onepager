@@ -109,4 +109,20 @@ img {
 
 }
 
+a:link, a:visited {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    transition: 0.3s;
+    border-radius: 5px;
+  }
+  
+  a:hover, a:active {
+    transition: 0.3s;
+    background-color: #a8e3ff;
+  }
+
 /*# sourceMappingURL=main.css.map */
